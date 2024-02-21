@@ -1,0 +1,18 @@
+//github.com/ladamanegra/ejerciciotema1.git
+/*(5 minutos) Escribir un programa que muestre por consola los mayores números enteros que
+ se pueden representar mediante un char, short e int.*/
+import java.util.Scanner;
+public class dos {
+
+    public class Dos {
+        public static void main(String[] args) {
+            int maxInt = Integer.MAX_VALUE;
+            short maxShort = Short.MAX_VALUE;
+            char maxChar = Character.MAX_VALUE;
+    
+            System.out.println("El mayor número entero que se puede representar con un int es: " + maxInt);
+            System.out.println("El mayor número entero que se puede representar con un short es: " + maxShort);
+            System.out.println("El mayor número entero que se puede representar con un char es: " + (int)maxChar);
+        }
+    }
+}
